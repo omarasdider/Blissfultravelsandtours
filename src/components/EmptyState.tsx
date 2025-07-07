@@ -9,12 +9,12 @@ import Heading from "./Heading";
 interface EmptySateProps{
     title?: string;
     subtitle?: string;
-    showReset?: boolean;
+   
 }
 
 
 
-const EmptyState = ({title ="No exact match", subtitle = "Try changing or remove of your filters", showReset}:EmptySateProps) => {
+const EmptyState = ({title ="No exact match", subtitle = "Try changing or remove of your filters",}:EmptySateProps) => {
     const router = useRouter()
     return ( 
     <div className="
