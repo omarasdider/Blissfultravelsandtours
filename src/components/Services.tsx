@@ -1,5 +1,6 @@
 "use client"
 
+import Image from 'next/image';
 import React from 'react';
 
 
@@ -65,7 +66,7 @@ const Services = () => {
           <div className="text-center">
             <h3 className="text-2xl font-semibold mb-4">Proprietor & CEO</h3>
             <div className="inline-block border-4 border-white rounded-lg p-2 mb-6">
-              <img 
+              <Image 
                 src="/web.jpg" 
                 alt="CEO" 
                 className="w-64 h-80 object-cover rounded"
