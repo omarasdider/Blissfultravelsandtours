@@ -3,6 +3,7 @@
 import  { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import Link from 'next/link';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -33,17 +34,17 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <div className="bg-white rounded-lg p-1.5 sm:p-2">
               <span className="text-blue-600 font-bold text-lg sm:text-xl">BLISSFUL TRAVEL</span>
-              <div className="text-xs text-gray-600">AND TOURISM</div>
+              <div className="text-xs text-gray-600">AND Tours</div>
             </div>
           </div>
           
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex gap-6 xl:gap-8 text-white">
-            <a href="#" className="hover:text-yellow-400 transition-colors">HOME</a>
-            <a href="#" className="hover:text-yellow-400 transition-colors">HOTELS</a>
-            <a href="#" className="hover:text-yellow-400 transition-colors">PORTFOLIO</a>
-            <a href="#" className="hover:text-yellow-400 transition-colors">SHORTCODES</a>
-            <a href="#" className="hover:text-yellow-400 transition-colors">CONTACT</a>
+            <Link href="/" className="hover:text-yellow-400 transition-colors">HOME</Link>
+            <Link href="#" className="hover:text-yellow-400 transition-colors">ACCOUNTS</Link>
+            <Link href="#" className="hover:text-yellow-400 transition-colors">PORTFOLIO</Link>
+            <Link href="/about" className="hover:text-yellow-400 transition-colors">ABOUT</Link>
+            <Link href="/contract" className="hover:text-yellow-400 transition-colors">CONTACT</Link>
           </nav>
           
           {/* Contact Info & Mobile Menu Button */}

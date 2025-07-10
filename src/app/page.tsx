@@ -2,8 +2,8 @@ import React from 'react';
 import Hero from '@/components/Hero';
 import About from '@/components/ui/About';
 import Services from '@/components/Services';
-import Contact from '@/components/Contract';
 import { InfiniteMovingCardsDemo } from '@/components/carousel';
+import Digitalmarkating from '@/components/Digitalmarkiting';
 
 const Home = () => {
   return (
@@ -11,8 +11,9 @@ const Home = () => {
       <Hero />
      <About />   
       <Services />
+      <Digitalmarkating/>
       <InfiniteMovingCardsDemo/>
-      <Contact />
+      
     </div>
   );
 };

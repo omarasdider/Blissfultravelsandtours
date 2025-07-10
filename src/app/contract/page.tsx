@@ -6,7 +6,7 @@ const Contact = () => {
     <section className="py-20 bg-gray-100">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">GET IN TOUCH</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">Find Your Bliss With Us</h2>
           <p className="text-xl text-gray-600">Ready to start your next adventure? Contact us today!</p>
         </div>
         
@@ -77,7 +77,7 @@ const Contact = () => {
                   <div className="text-2xl text-blue-600">📍</div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Address</h4>
-                    <p className="text-gray-600">291, Inner Circular Road, Fokirapool Dhaka</p>
+                    <p className="text-gray-600">Jomidar Palace,(Room #C-8)Inner Circular Road,291,Fakirapool Motijheel,Dhaka-1000</p>
                   </div>
                 </div>
                 

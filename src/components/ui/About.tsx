@@ -13,9 +13,9 @@ const About = () => {
             <h3 className="text-xl text-gray-600 mb-6">Better Travel Packages like any other</h3>
             <div className="w-12 h-1 bg-yellow-500 mb-6"></div>
             <p className="text-gray-600 leading-relaxed mb-8">
-              BlissfUl Travel & Tourism Agency is a private retailer or public service that provides travel and tourism 
-              related services to the public on behalf of suppliers such as activities, airlines, car rentals, cruise lines, 
-              hotels, railways, travel insurance, and package tours.
+            Blissful Travels and Tours Agency is a private retailer or public service that provides travel and tourism 
+              related services to the public on behalf of suppliers such as activities  airlines car rentals cruise lines, 
+              hotels &#39 railways  travel insurance  and package tours.
             </p>
             <Button className="bg-transparent border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3">
               JOIN ADVENTURE
@@ -74,3 +74,5 @@ const About = () => {
 };
 
 export default About;
+
+
