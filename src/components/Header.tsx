@@ -41,7 +41,7 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex gap-6 xl:gap-8 text-white">
             <Link href="/" className="hover:text-yellow-400 transition-colors">HOME</Link>
-            <Link href="#" className="hover:text-yellow-400 transition-colors">ACCOUNTS</Link>
+            <Link href="/accounts" className="hover:text-yellow-400 transition-colors">ACCOUNTS</Link>
             <Link href="#" className="hover:text-yellow-400 transition-colors">PORTFOLIO</Link>
             <Link href="/about" className="hover:text-yellow-400 transition-colors">ABOUT</Link>
             <Link href="/contract" className="hover:text-yellow-400 transition-colors">CONTACT</Link>

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Hero from '@/components/Hero';
 import About from '@/components/ui/About';
@@ -9,11 +10,10 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       <Hero />
-     <About />   
+      <About />   
       <Services />
       <Digitalmarkating/>
       <InfiniteMovingCardsDemo/>
-      
     </div>
   );
 };
