@@ -67,8 +67,8 @@ const Services = () => {
             <h3 className="text-2xl font-semibold mb-4">Proprietor & CEO</h3>
             <div className="inline-block border-4 border-white rounded-lg p-2 mb-6">
               <Image
-                width={64}
-                height={80}
+                width={640}
+                height={800}
                 src="/web.jpg" 
                 alt="CEO" 
                 className="w-64 h-80 object-cover rounded"

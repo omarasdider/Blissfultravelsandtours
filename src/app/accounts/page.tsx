@@ -1,9 +1,17 @@
-
-
+ 
 import InvoiceDashboard from "@/components/InvoiceDashboard";
 
-const Index = () => {
-  return <InvoiceDashboard />;
+
+const Accounts = () => {
+
+   
+  return( 
+  <div className="">
+   
+  <InvoiceDashboard />;
+
+  </div>
+  )
 };
 
-export default Index;
+export default Accounts;

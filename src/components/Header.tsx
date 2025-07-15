@@ -33,8 +33,8 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="bg-white rounded-lg p-1.5 sm:p-2">
-              <span className="text-blue-600 font-bold text-lg sm:text-xl">BLISSFUL TRAVEL</span>
-              <div className="text-xs text-gray-600">AND Tours</div>
+              <span className="text-blue-600 font-bold text-lg sm:text-xl">BLISSFUL TRAVELS</span>
+              <div className="text-xs text-gray-600">AND TOURS</div>
             </div>
           </div>
           
@@ -71,13 +71,10 @@ const Header = () => {
         {isMobileMenuOpen && (
           <div className="lg:hidden mt-4 pb-4 border-t border-white/20">
             <nav className="flex flex-col gap-4 pt-4 text-white">
-              <a href="#" className="hover:text-yellow-400 transition-colors py-2">HOME</a>
-              <a href="#" className="hover:text-yellow-400 transition-colors py-2">HOTELS</a>
-              <a href="#" className="hover:text-yellow-400 transition-colors py-2">PAGES</a>
-              <a href="#" className="hover:text-yellow-400 transition-colors py-2">BLOG</a>
-              <a href="#" className="hover:text-yellow-400 transition-colors py-2">PORTFOLIO</a>
-              <a href="#" className="hover:text-yellow-400 transition-colors py-2">SHORTCODES</a>
-              <a href="#" className="hover:text-yellow-400 transition-colors py-2">CONTACT</a>
+              <Link href="/" className="hover:text-yellow-400 transition-colors py-2">HOME</Link>
+             
+              <Link href="/about" className="hover:text-yellow-400 transition-colors py-2">ABOUT</Link>
+              <Link href="/contract" className="hover:text-yellow-400 transition-colors py-2">CONTACT</Link>
               
               {/* Mobile Contact Info */}
               <div className="mt-4 pt-4 border-t border-white/20 text-center">

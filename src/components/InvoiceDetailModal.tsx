@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Download, Mail, Calendar, MapPin, FileText, Edit } from 'lucide-react';
-import { Invoice } from '@/app/types/invoice';
+import { Invoice } from '../../types/invoice';
 import { generateInvoicePDF } from '@/lib/pdfGenerator';
 
 interface InvoiceDetailModalProps {

@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent } from '@/components/ui/card';
 import { Plus, Users, Mail, Phone, Building } from 'lucide-react';
-import { Client } from '../app/types/invoice';
+import { Client } from '../../types/invoice';
 
 interface ClientsModalProps {
   isOpen: boolean;

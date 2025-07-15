@@ -1,6 +1,5 @@
 import jsPDF from 'jspdf';
-import { Invoice } from '@/app/types/invoice';
-
+import { Invoice } from '../../types/invoice';
 export const generateInvoicePDF = (invoice: Invoice) => {
   const doc = new jsPDF();
   
@@ -12,7 +11,7 @@ export const generateInvoicePDF = (invoice: Invoice) => {
   // Header
   doc.setFontSize(28);
   doc.setTextColor(primaryColor[0], primaryColor[1], primaryColor[2]);
-  doc.text('INVOICE', 20, 30);
+  doc.text('BLISSFULTANDT', 20, 30);
   
   // Invoice ID and Status
   doc.setFontSize(14);
@@ -29,13 +28,13 @@ export const generateInvoicePDF = (invoice: Invoice) => {
   // Company Info (Right side)
   doc.setTextColor(darkColor[0], darkColor[1], darkColor[2]);
   doc.setFontSize(12);
-  doc.text('Blissful Trave and Tours', 140, 30);
+  doc.text('Blissful Travels and Tours', 140, 30);
   doc.setFontSize(10);
   doc.setTextColor(grayColor[0], grayColor[1], grayColor[2]);
-  doc.text('123 Business Street', 140, 40);
-  doc.text('City, State 12345', 140, 50);
-  doc.text('email@company.com', 140, 60);
-  doc.text('(555) 123-4567', 140, 70);
+  doc.text('Jomidar Palace,(Room #C-8)', 140, 40);
+  doc.text('Inner Circular Road,291,Fakirapool Motijheel,Dhaka-1000', 140, 50);
+  doc.text('blissfultravels11@gmail.com', 140, 60);
+  doc.text('(+88)01715179825', 140, 70);
   
   // Bill To Section
   doc.setTextColor(darkColor[0], darkColor[1], darkColor[2]);
@@ -123,9 +122,9 @@ export const generateInvoicePDF = (invoice: Invoice) => {
   const pageHeight = doc.internal.pageSize.height;
   doc.setTextColor(grayColor[0], grayColor[1], grayColor[2]);
   doc.setFontSize(8);
-  doc.text('Thank you for your business!', 20, pageHeight - 20);
+  doc.text('Find Your Bliss With Us!', 20, pageHeight - 20);
   doc.text(`Generated on ${new Date().toLocaleDateString()}`, 140, pageHeight - 20);
   
   // Save the PDF
-  doc.save(`Invoice-${invoice.id}.pdf`);
+  doc.save(`BLISSFUL Travels and Tours-${invoice.id}.pdf`);
 };

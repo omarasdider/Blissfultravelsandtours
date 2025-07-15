@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Plane, Globe, Car, Hotel, Shield, MapPin } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -50,7 +51,8 @@ const About = () => {
             <div className="flex justify-center lg:justify-end">
               <div className="bg-white p-4 rounded-lg shadow-2xl">
                 <Image
-                  
+                  width={800}
+                   height={960}
                   src="/Trade-Licence.jpg"
                   alt="Abdul Awal"
                   className="w-80 h-96 object-cover rounded-lg"

@@ -12,7 +12,7 @@ import { Pagination, PaginationContent, PaginationItem, PaginationLink, Paginati
 import CreateInvoiceModal from './CreateInvoiceModal';
 import InvoiceDetailModal from './InvoiceDetailModal';
 import ClientsModal from './ClientsModal';
-import { Invoice } from '@/app/types/invoice';
+import { Invoice } from '../../types/invoice';
 
 const InvoiceDashboard = () => {
   const [invoices, setInvoices] = useLocalStorage<Invoice[]>('invoices', []);
@@ -137,8 +137,8 @@ const InvoiceDashboard = () => {
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
           <div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">Invoice Management</h1>
-            <p className="text-gray-600">Manage your invoices and generate PDF receipts</p>
+            <h1 className="text-4xl font-bold text-gray-900 mb-2">Blissfull</h1>
+            <p className="text-gray-600">Blissful Travel and Tours</p>
           </div>
           <div className="flex gap-3 mt-4 md:mt-0">
             <Button 

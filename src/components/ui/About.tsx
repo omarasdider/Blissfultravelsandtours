@@ -36,7 +36,7 @@ const About = () => {
             <div className="text-center pb-80 gap-y-10 sm:mt-0">
               <h3 className="text-2xl font-bold text-blue-600">Travel through the Amazing</h3>
               <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-green-500 bg-clip-text text-transparent">
-                BLISSFUL TRAVEL
+                BLISSFULTANDT
               </h2>
               <p className="text-gray-500 tracking-widest">GREATER TOURISM</p>
             </div>

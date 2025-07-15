@@ -8,7 +8,7 @@ import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Textarea } from '@/components/ui/textarea';
 import { Plus, Trash2 } from 'lucide-react';
-import { Invoice, InvoiceItem } from '@/app/types/invoice';
+import { Invoice, InvoiceItem } from '../../types/invoice';
 
 interface CreateInvoiceModalProps {
   isOpen: boolean;
@@ -95,7 +95,7 @@ const CreateInvoiceModal = ({ isOpen, onClose, onSave }: CreateInvoiceModalProps
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle className="text-2xl font-bold">Create New Invoice</DialogTitle>
+          <DialogTitle className="text-2xl font-bold">Blissful Travel and Tours</DialogTitle>
         </DialogHeader>
         
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -111,10 +111,10 @@ const CreateInvoiceModal = ({ isOpen, onClose, onSave }: CreateInvoiceModalProps
               />
             </div>
             <div>
-              <Label htmlFor="clientEmail">Client Email *</Label>
+              <Label htmlFor="clientEmail">Phone Number *</Label>
               <Input
                 id="clientEmail"
-                type="email"
+                type="number"
                 value={formData.clientEmail}
                 onChange={(e) => setFormData({...formData, clientEmail: e.target.value})}
                 required
@@ -247,7 +247,7 @@ const CreateInvoiceModal = ({ isOpen, onClose, onSave }: CreateInvoiceModalProps
               Cancel
             </Button>
             <Button type="submit" className="bg-blue-600 hover:bg-blue-700">
-              Create Invoice
+              Create 
             </Button>
           </div>
         </form>
